@@ -1,0 +1,58 @@
+{
+  "clothes": [
+    {
+      "clothesName": "Худи",
+      "clothesImage": "https://www.next.us/nxtcms/resource/blob/5791586/ee0fc6a294be647924fa5f5e7e3df8e9/hoodies-data.jpg",
+      "clothesPrice": "1200",
+      "id": 1
+    },
+    {
+      "clothesName": "Джинсы",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "1499",
+      "id": 2
+    },
+    {
+      "clothesName": "Футболка",
+      "clothesImage": "https://libcat.ru/uploads/posts/book/dzhillian-bratstvo-konnora.jpg",
+      "clothesPrice": "1000",
+      "id": 45
+    },
+    {
+      "clothesName": "sss",
+      "clothesImage": "https://libcat.ru/uploads/posts/book/dzhillian-bratstvo-konnora.jpg",
+      "clothesPrice": "777",
+      "id": 46
+    },
+    {
+      "clothesName": "ццц",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "цц",
+      "id": 47
+    },
+    {
+      "clothesName": "ццц",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "цццц",
+      "id": 48
+    },
+    {
+      "clothesName": "цццц",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "цццц",
+      "id": 49
+    },
+    {
+      "clothesName": "ццц",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "ццц",
+      "id": 50
+    },
+    {
+      "clothesName": "ццц",
+      "clothesImage": "https://gapfactoryprod.a.bigcontent.io/v1/static/090423_MDPRefreshSite_SiteDP_V1_7358_SA1576_1A_MOB",
+      "clothesPrice": "ццц",
+      "id": 51
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+.my_class {
+	letter-spacing: 10px;
+}
+
+.price {
+	color: #9d4d4a;
+	font-weight: 600;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.content p {
+	color: rgb(130, 127, 127);
+	text-align: justify;
+}
+
+.pagination .page-link {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+.pagination .page-link:hover {
+	background-color: #333;
+	color: #fff;
+	border-color: #333;
+}
+
+.content {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.cardClothes {
+    width: 18rem;
+    margin: 20px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+.cardClothes .card-img-top {
+    height: 400px;
+    object-fit: cover; 
+}
+
+.cardClothes .card-body {
+    padding: 20px;
+}
+
+.cardClothes .card-text {
+    color: #333;
+}
+
+.cardClothes .price {
+    color: #9d4d4a;
+    font-weight: 600;
+}
+
+.cardClothes button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.dropdown-menu .dropdown-item.text-danger {
+	color: #000; 
+	font-weight: bold; 
+  }
+  
+  .dropdown-menu .dropdown-item.text-danger:hover {
+	background-color: #f8f9fa; 
+	color: #dc3545; 
+  }
+  
