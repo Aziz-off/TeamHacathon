@@ -88,15 +88,9 @@
 				<ul id="cartList" class="list-group"></ul>
 				<button id="btnCheckout" class= "btn btn-info">Login</button>
 			</div>
-	  
 		  </div>
 		</div>
 	  </nav>
-
-	  <!-- ваша HTML-разметка -->
-
-
-	  
 	<!-- NAVBAR FINISH -->
 
 	<!-- ADD PANEL START -->
@@ -144,7 +138,6 @@
 	<!-- ADD PANEL FINISH -->
 
 	<!-- SECTION CLOTHES START -->
-	
 	<div>
 		<h2 class="text-center text-uppercase my_class">Новинки</h2>
 		<section id="sectionClothes" class="container mx-auto d-flex flex-wrap align-content-center justify-content-center"></section>
@@ -156,7 +149,7 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Изменить карточку товара</h5>
 					<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="modal"></button>
 				</div>
 				<div class="modal-body">
@@ -170,11 +163,29 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="staticBackdropLabel">Детальный обзор на товар</h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+			</div>
+			<div class="modal-body">
+			  Смотри саму карточку, там и так все расписано. За дополнительной информацией обращаться в директ. Удачной покупки!!!
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
 	<!-- EDIT MODAL FINISH -->
 
-
+	
   
-	<!-- DETAILS FINISH -->
+	<!-- LOGIN START -->
+	<!-- LOGIN FINISH -->
 
 	<!-- PAGINATION START -->
 	<nav aria-label="Page navigation example">
@@ -211,20 +222,26 @@
 
 
 	<!-- FOOTER START -->
-	<div class="bg-dark">
-		<div class="footer_left">
-			<div class="logo"><a href="">Dresscode</a></div>
-			<span>Адрес: г.Бишкек, ул. Суеркулова, 20/12</span>
-			<span>Телефон: +996 557 59 55 99</span>
-			<span>Email: dresscode.kg@mail.ru</span>
+	<div class="bg-dark my_footer">
+		<div class="footer">
+			<div class="footer_left">
+				<div class="logo"><a href="">Dresscode</a></div>
+				<div class="span">
+					<span>Адрес: г.Бишкек, ул. Суеркулова, 20/12</span>
+					<span>Телефон: +996 557 59 55 99</span>
+					<span>Email: dresscode.kg@mail.ru</span>
+				</div>
+			</div>
+	
+			<div class="footer_right">
+				<div>ИНФОРМАЦИЯ</div>
+				<span>О магазине</span>
+				<span>информация о доставке</span>
+				<span>контакты</span>
+			</div>
 		</div>
-
-		<div class="footer_right">
-			<div>ИНФОРМАЦИЯ</div>
-			<span>О магазине</span>
-			<span>информация о доставке</span>
-			<span>контакты</span>
-		</div>
+		<hr>
+		<p>Dresscode.Kg © 2023</p>
 	</div>
 	<!-- FOOTER FINISH -->
 

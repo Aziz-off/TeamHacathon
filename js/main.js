@@ -12,6 +12,7 @@ let currentPage = 1;
 let countPage = 1;
 let searchValue = "";
 let detailsContainer = document.querySelector('.details');
+let btnCheckout = document.querySelector('#btnCheckout');
 
 btnAdd.addEventListener("click", () => {
   if (
@@ -62,12 +63,14 @@ async function readClothes() {
           alt="" 
           class="card-img-top detailsCard" 
           style="height: 400px">
+		  <a href="" class="details"></a>
         <div class="card-body">
           <p class="card-text">${item.clothesName}</p>
           <span class="card-text price">${item.clothesPrice} сом</span>
           <div>
             <button class="btn btn-outline-dark btnDelete" id="${item.id}">Удалить</button>
             <button class="btn btn-outline-dark btnEdit" id="${item.id}" data-bs-toggle="modal" data-bs-target="#exampleModal">Изменить</button>
+			<button class="btn btn-dark btnEdit" id="${item.id}" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Details</button>
           </div>
         </div>
       </div>
@@ -165,4 +168,7 @@ inpSearch.addEventListener('input', (e) => {
 });
 
 
-//! DETAILS
+//! login
+btnCheckout.addEventListener('click', () => {
+	console.log('hjk')
+});
